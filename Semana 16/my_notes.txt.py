@@ -1,14 +1,15 @@
 # 1. Crear y escribir en el archivo
 with open('my_notes.txt', 'w') as file:
-    file.write('Jugar basquet.\n')
-    file.write('Leer un libro nuevo cada mes.\n')
-    file.write('Practicar meditación diariamente.\n')
+    file.write('Amo viajar en moto.\n')
+    file.write('Me gusta muchísimo el motocross.\n')
+    file.write('Amo las películas con mi novia.\n')
+    file.write('Me agrada salir a conocer pueblos en moto.\n')
 
-# 2. Leer el contenido del archivo línea por línea
+# 2. Leemos el contenido línea por línea
 with open('my_notes.txt', 'r') as file:
     lines = file.readlines()
 
-# 3. Mostrar cada línea en la consola
+# 3. Mostramos cada línea
 for line in lines:
     print(line.strip())
 
